@@ -1,0 +1,136 @@
+:root {
+  --bg: #fafafa
+}
+
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+html, body {
+  font-family: Roboto, sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+body.active {
+  overflow: hidden;
+}
+
+body {
+  position: relative;
+}
+
+.app.active:before {
+  content: '';
+  background: rgba(0, 0, 0, 0.77);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.app.active {
+  position: relative;
+  filter: blur(40px);
+}
+
+.gradient-background {
+  background: linear-gradient(89.89deg, #022C5C 0.08%, #1D91D2 100.62%) !important;
+  color: #FFFFFF;
+}
+
+.button {
+  min-height: 60px;
+  border-radius: 45px;
+}
+
+.scrollmagic-pin-spacer {
+  max-width: 100% !important;
+  min-width: 100% !important;
+}
+
+.sticky {
+  position: fixed !important;
+  z-index: 101;
+}
+
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: none;
+}
+
+.btn-gradient {
+  color: #FFFFFF;
+  background-size: 300% 100%;
+  background-image: linear-gradient(to left, #E935B6, #ED7E40, #ED7E40, #E935B6);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.11);
+  min-width: 254px;
+  transition: all .3s ease-in-out;
+
+  &:hover {
+    color: #FFFFFF;
+    background-position: 100% 0;
+    transition: all .3s ease-in-out;
+  }
+}
+
+.header {
+  margin-bottom: 45px;
+}
+
+.btn-link.collapsed .card-header__btn {
+  background: url("../img/icon-plus.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.card-header__btn {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: url("../img/icon-minus.svg") no-repeat center;
+  background-size: 100% auto;
+  display: block;
+}
+
+.list-style-1 {
+  padding-left: 30px;
+  margin-top: 10px;
+
+  li {
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    margin-bottom: 8px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1222px;
+  }
+}
+
+
+@media (max-width: 991.98px) {
+
+}
+
+@media (max-width: 767.98px) {
+
+}

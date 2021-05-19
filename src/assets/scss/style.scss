@@ -1,0 +1,36 @@
+//LIBRARY
+@import "library.styles/bootstrap/bootstrap";
+@import "node_modules/owl.carousel/src/scss/owl.carousel";
+//@import "node_modules/slick-carousel/slick/slick.scss";
+//@import "node_modules/slick-carousel/slick/slick-theme.scss";
+@import "node_modules/animate.css/animate";
+//@import "node_modules/simplelightbox/src/simple-lightbox";
+//@import "node_modules/aos/src/sass/aos";
+
+//MIXINS
+@import "common.blocks/utils/mixins";
+
+//VARIABLE
+@import "common.blocks/utils/variable";
+
+//TEXT
+@import "common.blocks/utils/text";
+
+//FONTS
+@import "common.blocks/utils/fonts";
+
+//CONTAINERS
+@import "common.blocks/containers/section-first";
+
+@import "common.blocks/containers/write-ToUs";
+@import "common.blocks/containers/menu-modal";
+
+//BLOCKS
+@import "common.blocks/block/burger";
+@import "common.blocks/block/icons";
+@import "common.blocks/block/header";
+
+//main styles
+@import "common.blocks/utils/common";
+
+
