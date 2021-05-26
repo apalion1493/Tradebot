@@ -5,3 +5,27 @@
   height: 43px;
   display: block;
 }
+
+.golang-icon {
+  background: url("../img/golang-gopher-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 12px;
+  height: 17px;
+  display: block;
+}
+
+.stop-btn {
+  background: #D05D5D;
+  width: 11px;
+  height: 11px;
+  cursor: pointer;
+}
+
+.play-btn {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 7.5px 0 7.5px 13px;
+  border-color: transparent transparent transparent #ffffff;
+  cursor: pointer;
+}

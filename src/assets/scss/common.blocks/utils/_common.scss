@@ -86,10 +86,6 @@ body {
   }
 }
 
-.header {
-  margin-bottom: 45px;
-}
-
 .btn-link.collapsed .card-header__btn {
   background: url("../img/icon-plus.svg") no-repeat center;
   background-size: 100% auto;
@@ -118,6 +114,10 @@ body {
       margin-bottom: 0;
     }
   }
+}
+
+.marquee {
+  overflow: hidden;
 }
 
 @media (min-width: 1200px) {

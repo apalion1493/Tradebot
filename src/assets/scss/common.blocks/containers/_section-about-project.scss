@@ -1,0 +1,85 @@
+section.section-about-project {
+  padding-top: 140px;
+  padding-bottom: 100px;
+}
+
+.section-about-project__title {
+  margin-bottom: 36px;
+  text-transform: uppercase;
+  line-height: normal;
+}
+
+.section-about-project__text {
+  font-size: 18px;
+  line-height: 28px;
+  color: #555555;
+  margin-bottom: 36px;
+}
+
+.section-about-project__console {
+  background: #042E5E;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  height: 476px;
+  overflow: hidden;
+}
+
+.section-about-project__console-header {
+  min-height: 36px;
+  border-bottom: 1px solid #FBF9FA;
+  padding: 6px 14px 6px 22px;
+  display: flex;
+  align-items: center;
+
+  span {
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+}
+
+.section-about-project__console-body {
+  padding: 17px 11px 15px 16px;
+  position: relative;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-about-project__console-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-about-project__console-string {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+
+  span {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 13px;
+    line-height: 24px;
+    white-space: nowrap;
+    margin-right: 6px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.section-about-project__console-data {
+  color: #828282;
+}
+
+.section-about-project__console-name {
+  color: #50BA92;
+}
+
+.section-about-project__console-text {
+  color: #FFFFFF;
+}
+

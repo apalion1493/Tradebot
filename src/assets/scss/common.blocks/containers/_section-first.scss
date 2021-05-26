@@ -2,3 +2,34 @@ section.section-first {
   padding-top: 33px;
   padding-bottom: 114px;
 }
+
+.section-first__title {
+  font-weight: 900;
+  line-height: 108.2%;
+  text-transform: uppercase;
+}
+
+.section-first__subTitle {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 118.2%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.section-first__text {
+  font-size: 19px;
+  line-height: 137.2%;
+  color: #D5D5D5;
+}
+
+.section-first__wrapper {
+  padding-top: 64px;
+}
+
+.section-first__btn {
+  width: 253px;
+  min-height: 60px;
+  margin-bottom: 55px;
+}
