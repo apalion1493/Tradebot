@@ -34,5 +34,12 @@ $(document).ready(function(){
         items:3
     });
 
+    $('.stop-btn').click(function () {
+        $(this).parent().parent().addClass('active')
+    })
+
+    $('.play-btn').click(function () {
+        $(this).parent().parent().removeClass('active')
+    })
 });
 

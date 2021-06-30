@@ -23,6 +23,12 @@ section.section-about-project {
   flex-direction: column;
   height: 476px;
   overflow: hidden;
+
+  &.active {
+    .section-about-project__console-string {
+      animation-play-state: paused;
+    }
+  }
 }
 
 .section-about-project__console-header {
@@ -51,12 +57,18 @@ section.section-about-project {
 .section-about-project__console-wrapper {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
+  overflow: hidden;
 }
 
 .section-about-project__console-string {
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
+  position: relative;
+  animation: top 23s infinite linear;
 
   span {
     font-family: 'Ubuntu Mono', monospace;
@@ -69,6 +81,11 @@ section.section-about-project {
       margin-right: 0;
     }
   }
+}
+
+@keyframes top {
+  from {transform: translateY(0)}
+  to {transform: translateY(-1000px)}
 }
 
 .section-about-project__console-data {
