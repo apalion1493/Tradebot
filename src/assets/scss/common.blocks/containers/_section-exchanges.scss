@@ -10,7 +10,7 @@ section.section-exchanges {
 }
 
 .section-exchanges__svg {
-  margin-top: 50px;
+  margin-top: 8px;
 }
 
 .section-exchanges__text {
@@ -22,5 +22,77 @@ section.section-exchanges {
 
   &:last-child {
     margin-bottom: 0;
+  }
+}
+
+.section-exchanges__img {
+  position: relative;
+}
+
+.section-exchanges__graph-title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 50px;
+  display: block;
+  margin-left: 45px;
+}
+
+.section-exchanges__graph {
+  display: flex;
+  align-items: center;
+  position: absolute;
+}
+
+.section-exchanges__graph-1 {
+  top: 22px;
+  left: 314px;
+}
+
+.section-exchanges__graph-2 {
+  left: 314px;
+  top: 90px;
+}
+
+.section-exchanges__graph-3 {
+  left: 314px;
+  top: 171px;
+}
+
+.section-exchanges__graph-img {
+  background: rgba(5, 46, 94, 0.29);
+  border: 1px solid #194170;
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 126px;
+  height: 41px;
+  position: relative;
+  margin-right: 14px;
+
+  span {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    animation: graph 5s infinite linear;
+  }
+}
+
+.section-exchanges__graph-text {
+  font-weight: 900;
+  font-size: 13px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+@keyframes graph {
+  to {
+    left: 0;
+  }
+
+  from {
+    left: -232px;
   }
 }
