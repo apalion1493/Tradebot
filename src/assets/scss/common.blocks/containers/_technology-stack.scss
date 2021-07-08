@@ -9,3 +9,9 @@
   margin-bottom: 26px;
   line-height: normal;
 }
+
+@media (max-width: 767.98px) {
+  .technology-stack {
+    display: none;
+  }
+}

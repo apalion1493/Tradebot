@@ -2,7 +2,9 @@ import './config/jqueryLoad';
 import 'bootstrap/dist/js/bootstrap.min';
 import 'popper.js/dist/popper.min';
 import 'owl.carousel/dist/owl.carousel';
-import 'jquery.marquee';
+import Wow from 'wow.js';
+const wow = new Wow();
+wow.init();
 
 $(document).ready(function(){
     $(".anchor--link").on("click", function () {

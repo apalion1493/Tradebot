@@ -33,3 +33,51 @@ section.section-first {
   min-height: 60px;
   margin-bottom: 55px;
 }
+
+@media (max-width: 991.98px) {
+  .section-first__btn {
+    margin-bottom: 0;
+    margin-top: 700px !important;
+  }
+
+  .section-first__wrapper {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .section-first__subTitle {
+    font-size: 20px;
+  }
+
+  .section-first__btn {
+    margin-top: 500px !important;
+  }
+
+  .section-first__text {
+    font-size: 15px;
+  }
+
+  section.section-first {
+    padding-bottom: 30px;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .section-first__btn {
+    margin-top: 430px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .section-first__btn {
+    margin-top: 370px !important;
+  }
+}
+
+@media (max-width: 321px) {
+  .section-first__btn {
+    margin-top: 300px !important;
+  }
+}

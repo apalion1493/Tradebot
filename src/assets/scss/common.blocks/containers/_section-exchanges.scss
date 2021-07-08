@@ -96,3 +96,59 @@ section.section-exchanges {
     left: -232px;
   }
 }
+
+@media (max-width: 1199.98px) {
+  section.section-exchanges {
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+
+  .section-exchanges__text {
+    max-width: 100%;
+  }
+
+  .section-exchanges__title {
+
+    br {
+      display: none;
+    }
+  }
+}
+
+.section-exchanges__img-mob {
+  display: none;
+}
+
+@media (max-width: 1199.98px) {
+
+  section.section-exchanges {
+    min-height: auto;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .section-exchanges__text {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .section-exchanges__graph-title {
+    font-size: 16px;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .section-exchanges__img {
+    display: none;
+  }
+  
+  .section-exchanges__img-mob {
+    display: block;
+    width: 100%;
+  }
+
+  .section-exchanges__graph-title {
+    margin-bottom: 14px;
+  }
+}
